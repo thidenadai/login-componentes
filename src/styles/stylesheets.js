@@ -72,7 +72,7 @@ export const styles = StyleSheet.create({
     
   
     imageText: {
-      color: 'Black',
+      color: 'White',
       fontSize: 58,
     },
   });
