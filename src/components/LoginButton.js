@@ -6,9 +6,10 @@ export default function LoginButton(){
         <View>
             <Button
   style={styles.Button}
+  onPress={() => alert("Agora voce esta logado!!")}
   title="Login"
   color="black"
-  accessibilityLabel="Learn more about this purple button"
+
  
 />
         </View>
