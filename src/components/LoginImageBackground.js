@@ -3,7 +3,7 @@ import { styles } from '../styles/stylesheets';
 import LoginText from './LoginText';
 import LoginButton from './LoginButton';
 import LoginImage from './LoginImage';
-const img1 = { uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7QACnPVt05VA96sn1zx3skkQZDqB9EaRLPg&usqp=CAU'}
+const img1 = { uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh6yADoDrNwqPCz9TF8mKAq45YYpaVto9Tug&usqp=CAU'}
 import LoginInput from './LoginInput';
 
 

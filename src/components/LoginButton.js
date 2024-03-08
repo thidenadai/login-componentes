@@ -1,17 +1,23 @@
-import { View, Text, Button} from 'react-native';
+import { View, Text,  TouchableOpacity} from 'react-native';
 import { styles } from '../styles/stylesheets';
+
+
+    
+   
 
 export default function LoginButton(){
     return (
-        <View>
-            <Button
-  style={styles.Button}
-  onPress={() => alert("Agora voce esta logado!!")}
-  title="Login"
-  color="black"
-
- 
-/>
-        </View>
-    )
-}
+        <View >
+    
+      
+      <TouchableOpacity  
+      style={styles.button} 
+      onPress={() => alert("Agora voce esta logado!")}>
+        <Text>Press Here</Text>
+    </TouchableOpacity>
+      
+    </View>
+  );
+};
+       
+           

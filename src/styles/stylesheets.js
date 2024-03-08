@@ -38,14 +38,20 @@ export const styles = StyleSheet.create({
       marginBottom: 10
       
     },
-    Button: {
-      marginTop: 60,
+    button: {
+      
+     
+      padding: 10,
       alignItems: 'center',
       justifyContent: 'center',
-      width: 30,
+      width: 100,
+      backgroundColor: 'blue',
+      borderRadius:10,
       
   
     },
+    
+
     img: {
       width: 200,
       height: 200,
