@@ -7,17 +7,14 @@ const img1 = { uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7QAC
 import LoginInput from './LoginInput';
 
 
-export default function LoginImageBackground(){
+export default function LoginImageBackground({children}){
     return (
            <ImageBackground
             style={styles.imageBackground}
             source={img1}
             >
-                <LoginText />
-                <LoginInput />
-                <LoginButton />
-                <LoginImage />
-                
+                {children}
+               
             </ImageBackground>
     )
 }
